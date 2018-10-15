@@ -1,0 +1,84 @@
+body {
+	background: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg);
+	font: arial. tohamo;
+	text-transform: uppercase;
+}
+
+.nav {
+	display: inline-block;
+	padding: 0;
+	margin: 30px;
+	width: 50px;
+	opacity: .5;
+}
+
+.nav:hover {
+	opacity: 1;
+}
+
+.nav li {
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+
+	transition: width .2s ease-in-out, height .2s ease-in-out .2s;
+}
+
+.nav li:hover{
+	width: 200px;
+	height: 175px;
+}
+
+.nav li a {
+	display: block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	background: #bbb;
+	margin: 1px;
+	color: #fff;
+	padding-left: 15px;
+	cursor: pointer;
+
+	transition-property: all;
+	transition-duration: .2s;
+	transition-timing-function: ease-in-out;
+}
+
+.nav li a:hover {
+	background: #2fc5ff;
+}
+
+.nav li a:first-child {
+	font-size: 1.1em;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	text-indent: 34px;
+}
+
+.nav li a:first-child::before {
+    content:'';
+    display:block;
+    height:32px;
+    left:9px;
+    position:absolute;
+    top:9px;
+    width:32px;
+}
+
+.main-menu a:first-child::before {
+    background:url(home.png) center no-repeat;
+}
+
+.settings a:first-child::before {
+    background:url(settings.png) center no-repeat;
+}
+
+.link a:first-child::before {
+    background:url(link.png) center no-repeat;
+}
+
+.search a:first-child::before {
+    background:url(search.png) center no-repeat;
+}

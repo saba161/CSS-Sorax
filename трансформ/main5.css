@@ -1,0 +1,18 @@
+body {
+	font:arial;
+}
+
+#container {
+	background: rgba(0,0,0,.3);
+	border-radius: 8px;
+	border: 3px solid red;
+	color: #fff;
+	font-size: 25px;
+	height: 150px;
+	line-height: 150px;
+	margin: 80px;
+	text-align: center;
+	width: 250px;
+
+	transform: rotateX(40deg);
+}
